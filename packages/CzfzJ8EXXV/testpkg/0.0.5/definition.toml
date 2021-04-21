@@ -1,0 +1,39 @@
+[[dependencies]]
+name = "aa"
+version = "latest"
+optional = false
+build = true
+[[dependencies]]
+name = "bb"
+version = "latest"
+optional = false
+build = true
+[[dependencies]]
+name = "cc"
+version = "latest"
+optional = false
+build = true
+
+[binaries]
+  [binaries.big_sur_arm] # Big Sur (arn)
+  url = ""
+  sha256 = ""
+  available = false
+
+  [binaries.big_sur] # Big Sur
+  url = "https://github.com/sharkdp/bat/releases/download/v0.18.0/bat-v0.18.0-x86_64-apple-darwin.tar.gz"
+  binPath = "bat"
+  sha256 = "86583f06b490278fed45407f34afb17d674a8c8c6e8c70bcee5e9bcbf7f3f548"
+  available = true
+
+  [binaries.catalina] # Catalina
+  url = "https://github.com/sharkdp/bat/releases/download/v0.18.0/bat-v0.18.0-x86_64-apple-darwin.tar.gz"
+  binPath = "bat"
+  sha256 = "86583f06b490278fed45407f34afb17d674a8c8c6e8c70bcee5e9bcbf7f3f548"
+  available = true
+
+  [binaries.mojave] # Mojave
+  url = "https://github.com/sharkdp/bat/releases/download/v0.18.0/bat-v0.18.0-x86_64-apple-darwin.tar.gz"
+  binPath = "bat"
+  sha256 = "86583f06b490278fed45407f34afb17d674a8c8c6e8c70bcee5e9bcbf7f3f548"
+  available = true
