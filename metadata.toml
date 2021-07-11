@@ -1,4 +1,5 @@
 [repository]
-name = "stingalleman/stew-test2"
+name = "stew-test2"
+author = "stngalleman"
 packagesPath = "packages"
 maintainer = ["Sting Alleman <stingalleman@icloud.com>"]
